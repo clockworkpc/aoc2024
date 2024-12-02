@@ -1,0 +1,8 @@
+{
+"report_0": { "sequence": [ 7, 6, 4, 2, 1 ], "safe": true },
+"report_1": { "sequence": [ 1, 2, 7, 8, 9 ], "safe": false },
+"report_2": { "sequence": [ 9, 7, 6, 2, 1 ], "safe": false },
+"report_3": { "sequence": [ 1, 3, 2, 4, 5 ], "safe": false },
+"report_4": { "sequence": [ 8, 6, 4, 4, 1 ], "safe": false },
+"report_5": { "sequence": [ 1, 3, 6, 7, 9 ], "safe": true }
+}

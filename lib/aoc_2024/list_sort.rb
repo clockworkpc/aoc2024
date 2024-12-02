@@ -1,8 +1,5 @@
 module Aoc2024
-  class ListSort
-    def initialize(input_path)
-      @input = File.readlines(input_path)
-    end
+  class ListSort < Base
 
     def lists
       hsh = { left: [], right: [] }

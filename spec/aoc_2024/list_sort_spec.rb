@@ -36,8 +36,8 @@ RSpec.describe Aoc2024::ListSort do
     end
 
     it 'should return similarity score' do
-      sa = @self.similarity_array      
-      expect(sa.sum).to eq(31)
+      sa = @self.similarity_array
+      expect(sa.sum).to eq(26_800_609)
     end
   end
 end
