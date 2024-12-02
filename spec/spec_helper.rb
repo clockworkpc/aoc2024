@@ -1,5 +1,6 @@
 require 'json'
-require 'ruby_template/set_up_project'
+require 'aoc_2024/set_up_project'
+require 'aoc_2024/list_sort'
 
 RSpec.configure do |config|
   config.example_status_persistence_file_path = '.rspec_status'

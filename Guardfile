@@ -8,8 +8,6 @@ def watch_spec_and_lib_files(dsl)
   dsl.watch_spec_files_for(ruby.lib_files)
 end
 
-scope group: :default
-
 group :default do
   guard :rspec, cmd: 'bundle exec rspec --format documentation' do
     require 'guard/rspec/dsl'
@@ -25,3 +23,5 @@ group :tdd do
     watch_spec_and_lib_files(dsl)
   end
 end
+
+# scope group: :default

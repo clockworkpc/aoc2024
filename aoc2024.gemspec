@@ -1,15 +1,15 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ruby_template/version"
+require "aoc_2024/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby_template"
-  spec.version       = RubyTemplate::VERSION
+  spec.name          = "aoc_2024"
+  spec.version       = Aoc2024::VERSION
   spec.authors       = ["Alexander Garber"]
   spec.email         = ["clockworkpc@gmail.com"]
 
-  spec.summary       = "RubyTemplate summary"
-  spec.description   = "RubyTemplate description"
+  spec.summary       = "Aoc2024 summary"
+  spec.description   = "Aoc2024 description"
   spec.homepage      = "http://www.ruby-template.com"
   spec.license       = "MIT"
 

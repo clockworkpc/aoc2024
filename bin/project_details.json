@@ -1,10 +1,10 @@
 {
   "current": {
-    "module": "RubyTemplate",
-    "spec": "ruby_template"
+    "module": "Aoc2024",
+    "spec": "aoc_2024"
   },
   "new": {
-    "module": "RubyTemplate",
-    "spec": "ruby_template"
+    "module": "Aoc2024",
+    "spec": "aoc_2024"
   }
 }

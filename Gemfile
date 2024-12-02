@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gemspec
+
+ruby '>= 3.3.6'
 
 group :development do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -10,8 +11,9 @@ group :development do
   gem 'guard-rubocop'
   gem 'guard-shell'
   gem 'pry-byebug'
-  gem 'pry-rescue'
-  gem 'pry-stack_explorer'
+  # gem 'pry-nav'
+  # gem 'pry-rescue'
+  # gem 'pry-stack_explorer'
   gem 'rainbow'
   gem 'rb-fsevent', '~> 0.9'
   gem 'rubocop', require: false

@@ -1,5 +1,5 @@
-RSpec.describe RubyTemplate::SetUpProject do
-  context 'ruby_template' do
+RSpec.describe Aoc2024::SetUpProject do
+  context 'aoc_2024' do
     let(:project_details) { JSON.parse(File.read('bin/project_details.json')) }
 
     it 'should match the project Module name' do
@@ -10,6 +10,11 @@ RSpec.describe RubyTemplate::SetUpProject do
     it 'should match the project Spec name' do
       self_spec = self.class.description
       expect(self_spec).to eq(project_details['current']['spec'])
+    end
+
+    it 'should hello world' do
+      expect(described_class.new.hello_world).to eq('hello world') 
+      
     end
   end
 end

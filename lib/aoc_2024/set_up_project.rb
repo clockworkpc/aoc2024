@@ -1,4 +1,4 @@
-module RubyTemplate
+module Aoc2024
   class SetUpProject
     def project_details
       JSON.parse(File.read('bin/project_details.json'))
@@ -15,6 +15,10 @@ module RubyTemplate
     def project_files(module_str, spec_str)
       grep_ary = `grep -rnw -e "#{project_details["module"]}\\|#{project_details["spec"]}"`.split("\n")
       grep_ary.map {|x| x.split(':').first unless x.match?(".git")}.compact.uniq
+    end
+
+    def hello_world
+     'hello world' 
     end
   end
 end
